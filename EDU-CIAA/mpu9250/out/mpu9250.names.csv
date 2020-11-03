@@ -1,0 +1,366 @@
+Grado/mpu9250/out/mpu9250.elf:100009f8 00000004 b heap_end.5864
+Grado/mpu9250/out/mpu9250.elf:1a0083c4 00000004 t InitClkStates
+Grado/mpu9250/out/mpu9250.elf:1a0083c8 00000074 t pinmuxing
+Grado/mpu9250/out/mpu9250.elf:1a00067c 00000044 t Board_LED_Init
+Grado/mpu9250/out/mpu9250.elf:1a0006c0 00000040 t Board_TEC_Init
+Grado/mpu9250/out/mpu9250.elf:1a000700 00000040 t Board_GPIO_Init
+Grado/mpu9250/out/mpu9250.elf:1a000740 00000030 t Board_ADC_Init
+Grado/mpu9250/out/mpu9250.elf:1a000770 00000038 t Board_SPI_Init
+Grado/mpu9250/out/mpu9250.elf:1a0007a8 00000024 t Board_I2C_Init
+Grado/mpu9250/out/mpu9250.elf:1a008440 00000008 t GpioButtons
+Grado/mpu9250/out/mpu9250.elf:1a008448 0000000c t GpioLeds
+Grado/mpu9250/out/mpu9250.elf:1a008454 00000012 t GpioPorts
+Grado/mpu9250/out/mpu9250.elf:1a00086c 00000014 t Chip_SSP_GetClockIndex
+Grado/mpu9250/out/mpu9250.elf:1a000880 00000018 t Chip_SSP_GetPeriphClockIndex
+Grado/mpu9250/out/mpu9250.elf:10000004 00000038 d i2c
+Grado/mpu9250/out/mpu9250.elf:1a000b70 00000014 t Chip_ADC_GetClockIndex
+Grado/mpu9250/out/mpu9250.elf:1a000b84 00000032 t getClkDiv
+Grado/mpu9250/out/mpu9250.elf:1a00846c 00000048 t InitClkStates
+Grado/mpu9250/out/mpu9250.elf:1a000ed4 000000a0 t pll_calc_divs
+Grado/mpu9250/out/mpu9250.elf:1a000f74 0000010c t pll_get_frac
+Grado/mpu9250/out/mpu9250.elf:1a001080 0000004c t Chip_Clock_FindBaseClock
+Grado/mpu9250/out/mpu9250.elf:1a0012f4 00000022 t Chip_Clock_GetDivRate
+Grado/mpu9250/out/mpu9250.elf:100009fc 00000008 b audio_usb_pll_freq
+Grado/mpu9250/out/mpu9250.elf:1a0084c0 0000006c t periph_to_base
+Grado/mpu9250/out/mpu9250.elf:1a001460 0000002c t Chip_UART_GetIndex
+Grado/mpu9250/out/mpu9250.elf:1a00852c 00000008 t UART_BClock
+Grado/mpu9250/out/mpu9250.elf:1a008534 00000008 t UART_PClock
+Grado/mpu9250/out/mpu9250.elf:1000003c 00000004 d ClockSpeed
+Grado/mpu9250/out/mpu9250.elf:1a001610 00000034 t gpioObtainPinInit
+Grado/mpu9250/out/mpu9250.elf:1a0017f0 00000030 t i2cHardwareInit
+Grado/mpu9250/out/mpu9250.elf:1a001820 00000040 t i2cHardwareRead
+Grado/mpu9250/out/mpu9250.elf:1a001860 00000040 t i2cHardwareWrite
+Grado/mpu9250/out/mpu9250.elf:10000a04 00000004 b callBackFuncParams
+Grado/mpu9250/out/mpu9250.elf:10000a08 00000008 b tickCounter
+Grado/mpu9250/out/mpu9250.elf:10000a10 00000004 b tickHookFunction
+Grado/mpu9250/out/mpu9250.elf:10000a14 00000004 b g_hUsb
+Grado/mpu9250/out/mpu9250.elf:1a001a84 00000080 t mpu9250InitializeControlStructure
+Grado/mpu9250/out/mpu9250.elf:1a001b04 00000038 t mpu9250ReadRegisters
+Grado/mpu9250/out/mpu9250.elf:1a001b3c 00000020 t mpu9250WhoAmI
+Grado/mpu9250/out/mpu9250.elf:1a001b5c 0000004c t mpu9250WriteRegister
+Grado/mpu9250/out/mpu9250.elf:1a001ba8 0000005c t mpu9250ReadAK8963Registers
+Grado/mpu9250/out/mpu9250.elf:1a001c04 00000020 t mpu9250WhoAmIAK8963
+Grado/mpu9250/out/mpu9250.elf:1a001c24 00000078 t mpu9250WriteAK8963Register
+Grado/mpu9250/out/mpu9250.elf:1a001c9c 00000094 t mpu9250SetGyroRange
+Grado/mpu9250/out/mpu9250.elf:1a001d30 000000f8 t mpu9250SetDlpfBandwidth
+Grado/mpu9250/out/mpu9250.elf:1a001e28 000000b4 t mpu9250SetSrd
+Grado/mpu9250/out/mpu9250.elf:1a0021ac 0000015c t mpu9250CalibrateGyro
+Grado/mpu9250/out/mpu9250.elf:10000a18 00000158 b control
+Grado/mpu9250/out/mpu9250.elf:1a0034b4 00000050 t std
+Grado/mpu9250/out/mpu9250.elf:1a005db4 00000084 t __sbprintf
+Grado/mpu9250/out/mpu9250.elf:1a00876c 00000010 t blanks.8693
+Grado/mpu9250/out/mpu9250.elf:1a00877c 00000010 t zeroes.8694
+Grado/mpu9250/out/mpu9250.elf:1a005f08 00000124 t quorem
+Grado/mpu9250/out/mpu9250.elf:1a008890 0000000c t p05.7442
+Grado/mpu9250/out/mpu9250.elf:1a007e60 00000076 t __sprint_r.part.0
+Grado/mpu9250/out/mpu9250.elf:10000050 00000428 d impure_data
+Grado/mpu9250/out/mpu9250.elf:1a0088b0 t __init_array_end
+Grado/mpu9250/out/mpu9250.elf:1a0088ac b __preinit_array_end
+Grado/mpu9250/out/mpu9250.elf:1a0088ac t __init_array_start
+Grado/mpu9250/out/mpu9250.elf:1a0088ac b __preinit_array_start
+Grado/mpu9250/out/mpu9250.elf:1a008188 0000002c T __aeabi_dcmpun
+Grado/mpu9250/out/mpu9250.elf:1a001118 0000001c T Chip_Clock_GetDividerSource
+Grado/mpu9250/out/mpu9250.elf:1a000518 00000012 T _isatty_r
+Grado/mpu9250/out/mpu9250.elf:1a000d36 0000000e T Chip_I2CM_Xfer
+Grado/mpu9250/out/mpu9250.elf:1a002e5c 00000012 T __aeabi_dcmple
+Grado/mpu9250/out/mpu9250.elf:1a004038 0000009c T _puts_r
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W TIMER2_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a002d98 0000007a T __cmpdf2
+Grado/mpu9250/out/mpu9250.elf:1a0018a0 0000000e T i2cInit
+Grado/mpu9250/out/mpu9250.elf:1a00052a 0000000a T _lseek_r
+Grado/mpu9250/out/mpu9250.elf:1a000184 00000002 W DebugMon_Handler
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W RIT_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a080000 A __top_MFlashA512
+Grado/mpu9250/out/mpu9250.elf:1a002d98 0000007a T __eqdf2
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W ADCHS_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a000114 T __section_table_start
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W FLASH_EEPROM_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a002908 0000005a T __floatdidf
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W I2C0_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a004010 00000028 T printf
+Grado/mpu9250/out/mpu9250.elf:1a000862 00000008 T __stdio_init
+Grado/mpu9250/out/mpu9250.elf:10000bac 00000001 B __lock___atexit_recursive_mutex
+Grado/mpu9250/out/mpu9250.elf:1a008138 00000034 T _wcrtomb_r
+Grado/mpu9250/out/mpu9250.elf:1a004148 00000020 T __sseek
+Grado/mpu9250/out/mpu9250.elf:1a003510 00000054 T __sinit
+Grado/mpu9250/out/mpu9250.elf:1a008088 000000b0 T __swbuf_r
+Grado/mpu9250/out/mpu9250.elf:1a00017a 00000002 W HardFault_Handler
+Grado/mpu9250/out/mpu9250.elf:1a000940 00000120 T handleMasterXferState
+Grado/mpu9250/out/mpu9250.elf:1a002164 0000000c T mpu9250GetAccelX_mss
+Grado/mpu9250/out/mpu9250.elf:1a000000 A __vectors_start__
+Grado/mpu9250/out/mpu9250.elf:1a000c2a 0000000c T Chip_ADC_SetResolution
+Grado/mpu9250/out/mpu9250.elf:1a004004 0000000c T __malloc_unlock
+Grado/mpu9250/out/mpu9250.elf:1a001990 0000002c T SysTick_Handler
+Grado/mpu9250/out/mpu9250.elf:10000bb0 00000001 B __lock___arc4random_mutex
+Grado/mpu9250/out/mpu9250.elf:1a000474 00000002 W initialise_monitor_handles
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W SDIO_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a000804 0000001c T Board_UARTGetChar
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W ATIMER_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a007330 000000ce T memmove
+Grado/mpu9250/out/mpu9250.elf:1a000186 00000002 W PendSV_Handler
+Grado/mpu9250/out/mpu9250.elf:1a000178 00000002 W NMI_Handler
+Grado/mpu9250/out/mpu9250.elf:1a007400 0000004c T _Balloc
+Grado/mpu9250/out/mpu9250.elf:1a0088b8 R __exidx_end
+Grado/mpu9250/out/mpu9250.elf:1a000150 T __data_section_table_end
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W I2C1_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W UART1_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a002d88 0000008a T __gtdf2
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W GPIO5_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W CAN1_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a0018ae 00000028 T i2cRead
+Grado/mpu9250/out/mpu9250.elf:1a00050e 0000000a T _fstat_r
+Grado/mpu9250/out/mpu9250.elf:1a0025c8 0000000c T mpu9250GetMagY_uT
+Grado/mpu9250/out/mpu9250.elf:53ff7416 A __valid_user_code_checksum
+Grado/mpu9250/out/mpu9250.elf:1a0088b8 R _etext
+Grado/mpu9250/out/mpu9250.elf:1a002e24 00000010 T __aeabi_cdcmple
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W USB1_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W I2S0_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a0025d4 0000000c T mpu9250GetMagZ_uT
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W TIMER3_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a001396 0000000c T Chip_Clock_GetBaseClocktHz
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W UART0_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a0001a8 00000012 T bss_init
+Grado/mpu9250/out/mpu9250.elf:1a003e24 00000134 T memcpy
+Grado/mpu9250/out/mpu9250.elf:1a002e14 00000020 T __aeabi_cdrcmple
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W SGPIO_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a003504 0000000c T _cleanup_r
+Grado/mpu9250/out/mpu9250.elf:1a002890 00000022 T __floatsidf
+Grado/mpu9250/out/mpu9250.elf:1a000aec 00000030 T Chip_I2C_MasterStateHandler
+Grado/mpu9250/out/mpu9250.elf:1a002d90 00000082 T __ltdf2
+Grado/mpu9250/out/mpu9250.elf:1a002f38 T __aeabi_uldivmod
+Grado/mpu9250/out/mpu9250.elf:10000bd0 ? _noinit
+Grado/mpu9250/out/mpu9250.elf:1a0040d4 00000010 T puts
+Grado/mpu9250/out/mpu9250.elf:10000ba4 00000004 B SystemCoreClock
+Grado/mpu9250/out/mpu9250.elf:1a00148c 00000054 T Chip_UART_Init
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W ADC0_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a0087c8 000000c8 T __mprec_tens
+Grado/mpu9250/out/mpu9250.elf:1a000180 00000002 W UsageFault_Handler
+Grado/mpu9250/out/mpu9250.elf:1a001414 0000004c T Chip_Clock_GetRate
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W GPIO6_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:10000ba0 00000004 B __malloc_top_pad
+Grado/mpu9250/out/mpu9250.elf:1a000604 0000006c T Board_SetupClocking
+Grado/mpu9250/out/mpu9250.elf:20008000 A __top_RamAHB32
+Grado/mpu9250/out/mpu9250.elf:1a002870 0000001e T __aeabi_ui2d
+Grado/mpu9250/out/mpu9250.elf:1a00718c 00000008 T _localeconv_r
+Grado/mpu9250/out/mpu9250.elf:1a00758c 00000012 T __i2b
+Grado/mpu9250/out/mpu9250.elf:1a006e84 00000308 T __sfvwrite_r
+Grado/mpu9250/out/mpu9250.elf:1a000abc 00000030 T Chip_I2C_SetMasterEventHandler
+Grado/mpu9250/out/mpu9250.elf:1a002f68 000002d0 T __udivmoddi4
+Grado/mpu9250/out/mpu9250.elf:1a0025ec T __aeabi_drsub
+Grado/mpu9250/out/mpu9250.elf:1a002308 000002b4 T mpu9250Init
+Grado/mpu9250/out/mpu9250.elf:1a0005ac 00000020 T _sbrk_r
+Grado/mpu9250/out/mpu9250.elf:1a00843c 00000004 T ExtRateIn
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W IntDefaultHandler
+Grado/mpu9250/out/mpu9250.elf:1a000300 T __CRP_WORD_END__
+Grado/mpu9250/out/mpu9250.elf:1a0025e0 0000000c T mpu9250GetTemperature_C
+Grado/mpu9250/out/mpu9250.elf:1a000534 0000004e T _read_r
+Grado/mpu9250/out/mpu9250.elf:1a002e48 00000012 T __aeabi_dcmplt
+Grado/mpu9250/out/mpu9250.elf:1a00323c 000000ce T _fclose_r
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W GPIO1_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:10000b98 00000004 B __malloc_max_sbrked_mem
+Grado/mpu9250/out/mpu9250.elf:1a0028b4 00000042 T __extendsfdf2
+Grado/mpu9250/out/mpu9250.elf:1a002bb8 000001d0 T __aeabi_ddiv
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W SSP0_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a00217c 0000000c T mpu9250GetAccelZ_mss
+Grado/mpu9250/out/mpu9250.elf:1a0025f8 00000276 T __adddf3
+Grado/mpu9250/out/mpu9250.elf:1a0088b0 R __exidx_start
+Grado/mpu9250/out/mpu9250.elf:10000bb4 00000001 B __lock___env_recursive_mutex
+Grado/mpu9250/out/mpu9250.elf:1a002964 00000254 T __aeabi_dmul
+Grado/mpu9250/out/mpu9250.elf:1a0002fc 00000004 T CRP_WORD
+Grado/mpu9250/out/mpu9250.elf:10000bb8 00000001 B __lock___sinit_recursive_mutex
+Grado/mpu9250/out/mpu9250.elf:1a007a14 0000036c T _realloc_r
+Grado/mpu9250/out/mpu9250.elf:1a00385c 00000048 T __libc_init_array
+Grado/mpu9250/out/mpu9250.elf:1a007fec 00000064 T _fputwc_r
+Grado/mpu9250/out/mpu9250.elf:1a0087a0 00000028 T __mprec_bigtens
+Grado/mpu9250/out/mpu9250.elf:1a002870 0000001e T __floatunsidf
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W ADC1_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a007824 00000038 T __mcmp
+Grado/mpu9250/out/mpu9250.elf:1a000820 00000030 T Board_Init
+Grado/mpu9250/out/mpu9250.elf:1a000502 00000002 W _init
+Grado/mpu9250/out/mpu9250.elf:1a000114 T __data_section_table
+Grado/mpu9250/out/mpu9250.elf:1a002e98 0000009e T __aeabi_d2f
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W RTC_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:10000bd0 B _ebss
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W TIMER0_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a000478 00000088 T Reset_Handler
+Grado/mpu9250/out/mpu9250.elf:1a001914 0000007c T tickInit
+Grado/mpu9250/out/mpu9250.elf:20010000 A __top_RamAHB_ETB16
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W SPI_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a000d44 00000024 T Chip_I2CM_XferBlocking
+Grado/mpu9250/out/mpu9250.elf:1a0074ec 00000040 T __hi0bits
+Grado/mpu9250/out/mpu9250.elf:1a000a84 00000038 T Chip_I2C_SetClockRate
+Grado/mpu9250/out/mpu9250.elf:1a0081b4 0000004e T __fixdfsi
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W LCD_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a0010cc 0000004c T Chip_Clock_EnableCrystal
+Grado/mpu9250/out/mpu9250.elf:10000bbc 00000001 B __lock___malloc_recursive_mutex
+Grado/mpu9250/out/mpu9250.elf:10008000 A __top_RamLoc32
+Grado/mpu9250/out/mpu9250.elf:1a0025f8 00000276 T __aeabi_dadd
+Grado/mpu9250/out/mpu9250.elf:1a00018a 0000001e T data_init
+Grado/mpu9250/out/mpu9250.elf:1a002d90 00000082 T __ledf2
+Grado/mpu9250/out/mpu9250.elf:1a0076d0 000000a0 T __pow5mult
+Grado/mpu9250/out/mpu9250.elf:1a0028f8 0000006a T __aeabi_ul2d
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W TIMER1_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a000a60 00000024 T Chip_I2C_Init
+Grado/mpu9250/out/mpu9250.elf:1a0038b0 00000002 T __retarget_lock_release_recursive
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W UART2_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a001288 0000006c T Chip_Clock_GetMainPLLHz
+Grado/mpu9250/out/mpu9250.elf:1a00853c 000000e6 T gpioPinsInit
+Grado/mpu9250/out/mpu9250.elf:1a000898 00000012 T Chip_SSP_SetClockRate
+Grado/mpu9250/out/mpu9250.elf:1a002e84 00000012 T __aeabi_dcmpgt
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W GPIO2_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a003564 0000000c T __sfp_lock_acquire
+Grado/mpu9250/out/mpu9250.elf:1a007290 T memchr
+Grado/mpu9250/out/mpu9250.elf:1a00361c 000001ec T _free_r
+Grado/mpu9250/out/mpu9250.elf:1a001370 00000026 T Chip_Clock_GetBaseClock
+Grado/mpu9250/out/mpu9250.elf:1a008050 0000000c T __locale_mb_cur_max
+Grado/mpu9250/out/mpu9250.elf:1a002e70 00000012 T __aeabi_dcmpge
+Grado/mpu9250/out/mpu9250.elf:100009f8 B _bss
+Grado/mpu9250/out/mpu9250.elf:1a000bf8 00000032 T Chip_ADC_SetSampleRate
+Grado/mpu9250/out/mpu9250.elf:1a0025f4 0000027a T __aeabi_dsub
+Grado/mpu9250/out/mpu9250.elf:10000880 00000004 D __malloc_sbrk_base
+Grado/mpu9250/out/mpu9250.elf:1a0028f8 0000006a T __floatundidf
+Grado/mpu9250/out/mpu9250.elf:1a007770 000000b2 T __lshift
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W I2S1_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a0008aa 0000003e T Chip_SSP_SetBitRate
+Grado/mpu9250/out/mpu9250.elf:1a002194 0000000c T mpu9250GetGyroY_rads
+Grado/mpu9250/out/mpu9250.elf:1a000b6c 00000002 T Chip_GPIO_Init
+Grado/mpu9250/out/mpu9250.elf:1a008468 00000004 T OscRateIn
+Grado/mpu9250/out/mpu9250.elf:1a0075a0 00000130 T __multiply
+Grado/mpu9250/out/mpu9250.elf:10000bd0 ? _end_noinit
+Grado/mpu9250/out/mpu9250.elf:10008000 A _vStackTop
+Grado/mpu9250/out/mpu9250.elf:1a007dec 00000072 T strncpy
+Grado/mpu9250/out/mpu9250.elf:10000b70 00000028 B __malloc_current_mallinfo
+Grado/mpu9250/out/mpu9250.elf:1a007954 000000be T __d2b
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W SSP1_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a000178 T __bss_section_table_end
+Grado/mpu9250/out/mpu9250.elf:1a000504 0000000a T _close_r
+Grado/mpu9250/out/mpu9250.elf:1a002890 00000022 T __aeabi_i2d
+Grado/mpu9250/out/mpu9250.elf:1a001644 000001ac T gpioInit
+Grado/mpu9250/out/mpu9250.elf:1a0038a8 00000002 T __retarget_lock_close_recursive
+Grado/mpu9250/out/mpu9250.elf:1a005e38 000000d0 T __swsetup_r
+Grado/mpu9250/out/mpu9250.elf:1a003238 00000002 W __aeabi_ldiv0
+Grado/mpu9250/out/mpu9250.elf:1a002bb8 000001d0 T __divdf3
+Grado/mpu9250/out/mpu9250.elf:10000478 00000408 D __malloc_av_
+Grado/mpu9250/out/mpu9250.elf:1a002964 00000254 T __muldf3
+Grado/mpu9250/out/mpu9250.elf:1a0040e4 00000022 T __sread
+Grado/mpu9250/out/mpu9250.elf:1a0019bc 0000001c T USB0_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W GPIO3_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:10000000 00000001 D addr
+Grado/mpu9250/out/mpu9250.elf:1a003ff8 0000000c T __malloc_lock
+Grado/mpu9250/out/mpu9250.elf:1a0007f0 00000014 T Board_UARTPutChar
+Grado/mpu9250/out/mpu9250.elf:1a000b1c 00000018 T Chip_I2C_IsStateChanged
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W SCT_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a003458 0000005a T _fflush_r
+Grado/mpu9250/out/mpu9250.elf:1a007eec 0000005e T _calloc_r
+Grado/mpu9250/out/mpu9250.elf:1a001134 0000001c T Chip_Clock_GetDividerDivisor
+Grado/mpu9250/out/mpu9250.elf:1a0002fc T __CRP_WORD_START__
+Grado/mpu9250/out/mpu9250.elf:1a0038ac 00000002 T __retarget_lock_acquire_recursive
+Grado/mpu9250/out/mpu9250.elf:1a003f58 000000a0 T memset
+Grado/mpu9250/out/mpu9250.elf:1a00017c 00000002 W MemManage_Handler
+Grado/mpu9250/out/mpu9250.elf:1a000300 00000174 T main
+Grado/mpu9250/out/mpu9250.elf:10000b9c 00000004 B __malloc_max_total_mem
+Grado/mpu9250/out/mpu9250.elf:1a0038a4 00000002 T __retarget_lock_init_recursive
+Grado/mpu9250/out/mpu9250.elf:1a0025bc 0000000c T mpu9250GetMagX_uT
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W WDT_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:2000c000 A __top_RamAHB16
+Grado/mpu9250/out/mpu9250.elf:1008a000 A __top_RamLoc40
+Grado/mpu9250/out/mpu9250.elf:1a000182 00000002 W SVC_Handler
+Grado/mpu9250/out/mpu9250.elf:1a004168 00000008 T __sclose
+Grado/mpu9250/out/mpu9250.elf:1a002e98 0000009e T __truncdfsf2
+Grado/mpu9250/out/mpu9250.elf:1a006030 00000e54 T _dtoa_r
+Grado/mpu9250/out/mpu9250.elf:1a0038b4 00000570 T _malloc_r
+Grado/mpu9250/out/mpu9250.elf:1a00816c 0000001a T __ascii_wctomb
+Grado/mpu9250/out/mpu9250.elf:1a002908 0000005a T __aeabi_l2d
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W GPIO7_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a0013a4 0000003c T Chip_Clock_EnableOpts
+Grado/mpu9250/out/mpu9250.elf:1a00085a 00000008 T __stdio_getchar
+Grado/mpu9250/out/mpu9250.elf:1a00357c 000000a0 T _malloc_trim_r
+Grado/mpu9250/out/mpu9250.elf:1a001150 000000b8 T Chip_Clock_GetClockInputHz
+Grado/mpu9250/out/mpu9250.elf:1a002170 0000000c T mpu9250GetAccelY_mss
+Grado/mpu9250/out/mpu9250.elf:1a001208 00000080 T Chip_Clock_CalcMainPLLValue
+Grado/mpu9250/out/mpu9250.elf:1a0015bc 00000038 T SystemInit
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W SPIFI_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a001a4c 00000038 T delay
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W QEI_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a000150 T __bss_section_table
+Grado/mpu9250/out/mpu9250.elf:1a002d98 0000007a T __nedf2
+Grado/mpu9250/out/mpu9250.elf:1a000500 00000002 W _fini
+Grado/mpu9250/out/mpu9250.elf:1a000bb8 00000040 T Chip_ADC_Init
+Grado/mpu9250/out/mpu9250.elf:10000ba8 00000004 B g_pUsbApi
+Grado/mpu9250/out/mpu9250.elf:1a0005cc 00000038 T Board_SetupMuxing
+Grado/mpu9250/out/mpu9250.elf:1a0014e0 000000dc T Chip_UART_SetBaudFDR
+Grado/mpu9250/out/mpu9250.elf:1a0018f0 0000000c T tickRead
+Grado/mpu9250/out/mpu9250.elf:1a000582 00000028 T _write_r
+Grado/mpu9250/out/mpu9250.elf:10000040 00000008 D tickRateMS
+Grado/mpu9250/out/mpu9250.elf:1a001edc 00000288 T mpu9250Read
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W ETH_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:10000048 00000004 D _impure_ptr
+Grado/mpu9250/out/mpu9250.elf:1a00330c 0000014a T __sflush_r
+Grado/mpu9250/out/mpu9250.elf:10000000 ? _end_uninit_RESERVED
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W CAN0_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a000c36 00000100 T Chip_I2CM_XferHandler
+Grado/mpu9250/out/mpu9250.elf:1a00805c 0000002a T __ascii_mbtowc
+Grado/mpu9250/out/mpu9250.elf:10000000 D _data
+Grado/mpu9250/out/mpu9250.elf:10000bd0 B _pvHeapStart
+Grado/mpu9250/out/mpu9250.elf:1a000178 T __section_table_end
+Grado/mpu9250/out/mpu9250.elf:1a0008e8 00000038 T Chip_SSP_Init
+Grado/mpu9250/out/mpu9250.elf:1a000b34 00000038 T Chip_I2C_EventHandlerPolling
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W GINT0_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a007194 0000005c T __swhatbuf_r
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W DAC_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a0018d6 00000018 T i2cWrite
+Grado/mpu9250/out/mpu9250.elf:1a0007cc 00000024 T Board_Debug_Init
+Grado/mpu9250/out/mpu9250.elf:1a002e34 00000012 T __aeabi_dcmpeq
+Grado/mpu9250/out/mpu9250.elf:1a000850 0000000a T __stdio_putchar
+Grado/mpu9250/out/mpu9250.elf:100009f4 D _edata
+Grado/mpu9250/out/mpu9250.elf:1a000920 00000020 T Chip_I2C_EventHandler
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W M0SUB_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a007f4c 0000009e T __fputwc
+Grado/mpu9250/out/mpu9250.elf:10000bc0 00000001 B __lock___at_quick_exit_mutex
+Grado/mpu9250/out/mpu9250.elf:1a000d68 00000158 T Chip_SetupCoreClock
+Grado/mpu9250/out/mpu9250.elf:1a0021a0 0000000c T mpu9250GetGyroZ_rads
+Grado/mpu9250/out/mpu9250.elf:1a004108 0000003e T __swrite
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W GPIO0_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:10000884 00000004 D __malloc_trim_threshold
+Grado/mpu9250/out/mpu9250.elf:1a000000 00000040 T g_pfnVectors
+Grado/mpu9250/out/mpu9250.elf:1a003808 00000052 T _fwalk_reent
+Grado/mpu9250/out/mpu9250.elf:1a000ec0 00000014 T SystemCoreClockUpdate
+Grado/mpu9250/out/mpu9250.elf:1a00785c 000000f8 T __mdiff
+Grado/mpu9250/out/mpu9250.elf:1a0081b4 0000004e T __aeabi_d2iz
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W DMA_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W EVRT_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1b080000 A __top_MFlashB512
+Grado/mpu9250/out/mpu9250.elf:1a003570 0000000c T __sfp_lock_release
+Grado/mpu9250/out/mpu9250.elf:1a008624 00000101 T _ctype_
+Grado/mpu9250/out/mpu9250.elf:1a003238 00000002 W __aeabi_idiv0
+Grado/mpu9250/out/mpu9250.elf:1a008188 0000002c T __unorddf2
+Grado/mpu9250/out/mpu9250.elf:1a00017e 00000002 W BusFault_Handler
+Grado/mpu9250/out/mpu9250.elf:10000bc4 00000001 B __lock___dd_hash_mutex
+Grado/mpu9250/out/mpu9250.elf:1a0071f0 00000094 T __smakebuf_r
+Grado/mpu9250/out/mpu9250.elf:10000bc8 00000001 B __lock___tz_mutex
+Grado/mpu9250/out/mpu9250.elf:1a004180 000000dc T strlen
+Grado/mpu9250/out/mpu9250.elf:1a0013e0 00000034 T Chip_Clock_Enable
+Grado/mpu9250/out/mpu9250.elf:1a002e24 00000010 T __aeabi_cdcmpeq
+Grado/mpu9250/out/mpu9250.elf:1a002d88 0000008a T __gedf2
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W UART3_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W MCPWM_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a002188 0000000c T mpu9250GetGyroX_rads
+Grado/mpu9250/out/mpu9250.elf:1a007ed8 00000014 T __sprint_r
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W M0APP_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a0028b4 00000042 T __aeabi_f2d
+Grado/mpu9250/out/mpu9250.elf:1a0019d8 00000074 T boardInit
+Grado/mpu9250/out/mpu9250.elf:1a000040 000000d4 T g_pfnVendorVectors
+Grado/mpu9250/out/mpu9250.elf:1a0025f4 0000027a T __subdf3
+Grado/mpu9250/out/mpu9250.elf:1a004260 00001b54 T _vfprintf_r
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W GINT1_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:1a00752c 00000060 T __lo0bits
+Grado/mpu9250/out/mpu9250.elf:1a0018fc 00000018 T tickPowerSet
+Grado/mpu9250/out/mpu9250.elf:1a007d80 0000006c T frexp
+Grado/mpu9250/out/mpu9250.elf:10000888 0000016c D __global_locale
+Grado/mpu9250/out/mpu9250.elf:1a001318 00000058 T Chip_Clock_SetBaseClock
+Grado/mpu9250/out/mpu9250.elf:1a0015f4 0000001c T cyclesCounterInit
+Grado/mpu9250/out/mpu9250.elf:1a0001ba 00000002 W GPIO4_IRQHandler
+Grado/mpu9250/out/mpu9250.elf:10000bcc 00000001 B __lock___sfp_recursive_mutex
+Grado/mpu9250/out/mpu9250.elf:1a000670 0000000c T Board_SystemInit
+Grado/mpu9250/out/mpu9250.elf:1a007460 0000008a T __multadd
+Grado/mpu9250/out/mpu9250.elf:1a00744c 00000012 T _Bfree
