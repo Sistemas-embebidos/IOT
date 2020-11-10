@@ -5,14 +5,13 @@ import numpy as np
 import random
 import serial
 import time
-
 import datetime as dt
 
 # Inicializamos el puerto serie
 ser = serial.Serial()
-ser.port = 'COM9' # Puerto serie (para windows)
+ser.port = 'COM9' # Puerto serie (para windows) /dev/USB01
 ser.baudrate = 115200
-ser.timeout = 10 # Tiempo sin leer
+ser.timeout = 5 # Tiempo sin leer
 ser.open()
 if ser.is_open==True:
 	print("\n Perfecto! El puerto serie esta abierto. Configuraciones: :\n")
@@ -29,7 +28,7 @@ a_s = [] # Para almacenar los valores de aceleracion
 m_s = [] # Para almacenar los valores del campo magnetico
 temp_s = [] # Para almacenar los valores de temperatura
 
-N = 20      # Cantidad de lecturas a mostrar
+N = 50      # Cantidad de lecturas a mostrar
 
 #%%
 def modulo(x,y,z):
@@ -73,12 +72,13 @@ def animate(i, t_s, g_s, a_s, m_s, temp_s):
     print('[{:.3f} rads | {:.3f} ms^2 | {:.3f} uT,{:.3f} °C]'.format(giroscopio,acelerometro,magnetometro,temp))
 
    	# Agrego los valores a la lista
+
     t_s.append(dt.datetime.now().strftime('%H:%M:%S')) 
     g_s.append(giroscopio)
     a_s.append(acelerometro)
     m_s.append(magnetometro)
     temp_s.append(temp)
-    
+
     # Limito a N ultimos elementos
     t_s = t_s[-N:]
     g_s = g_s[-N:]
@@ -132,6 +132,6 @@ def animate(i, t_s, g_s, a_s, m_s, temp_s):
     #plt.axis([1, None, 0, 1.1]) # Para ejes fijos
 
 # Set up plot to call animate() function periodically
-ani = animation.FuncAnimation(fig, animate, fargs=(t_s,  g_s, a_s, m_s, temp_s), interval=10*1000)
+ani = animation.FuncAnimation(fig, animate, fargs=(t_s,  g_s, a_s, m_s, temp_s), interval=1000)
 
 plt.show()
