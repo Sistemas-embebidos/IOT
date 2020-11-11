@@ -16,7 +16,6 @@
 
 MQTTClient client;
 
-
 #define SECRET_CH_ID 875856      
 #define SECRET_WRITE_APIKEY "IDDX6EA2VCAUIOPD"
 
@@ -55,7 +54,7 @@ void inline handler (void);
 
 
 void setup() {
-  Wire.begin(D6, D5); /* join i2c bus with SDA=D1 and SCL=D2 of NodeMCU */
+  Wire.begin(D6, D5); /* join i2c bus with SDA=D6 and SCL=D5 of NodeMCU */
 
   mySensor.setWire(&Wire);
   mySensor.beginAccel();
@@ -135,20 +134,19 @@ void MQTT_send(void) {
   client.publish("dispID", String(ID));
   client.publish("Temperatura", String(T));
     
-  //client.publish("Magnetometro/m_x", String(mX));
-  //client.publish("Magnetometro/m_y", String(mY));
-  //client.publish("Magnetometro/m_z", String(mZ));
-  Serial.println(mX*mX+mY*mY+mZ*mZ);
+  client.publish("Magnetometro/m_x", String(mX));
+  client.publish("Magnetometro/m_y", String(mY));
+  client.publish("Magnetometro/m_z", String(mZ));
   client.publish("Magnetometro", String(mgn));
   
-  //client.publish("Giroscopio/g_x", String(gX));
-  //client.publish("Giroscopio/g_y", String(gY));
-  //client.publish("Giroscopio/g_z", String(gZ));
+  client.publish("Giroscopio/g_x", String(gX));
+  client.publish("Giroscopio/g_y", String(gY));
+  client.publish("Giroscopio/g_z", String(gZ));
   client.publish("Giroscopio", String(gir));
   
-  //client.publish("Aceleracion/a_x", String(aX));
-  //client.publish("Aceleracion/a_y", String(aY));
-  //client.publish("Aceleracion/a_z", String(aZ));
+  client.publish("Aceleracion/a_x", String(aX));
+  client.publish("Aceleracion/a_y", String(aY));
+  client.publish("Aceleracion/a_z", String(aZ));
   client.publish("Aceleracion", String(acc));
 
   client.publish("Datos", "{\"id\":"+ID+",\"temperatura\":"+String(T)+",\"magnetico\":"+String(mgn)+",\"giroscopio\":"+String(gir)+",\"aceleracion\":"+String(acc)+"}");
@@ -173,7 +171,7 @@ void Thingspeak_send(void) {
 }
 
 void Firebase_send(void) {
-
+  
   Firebase.setDouble(firebaseData, path + "/a_x", aX);
   Firebase.setDouble(firebaseData, path + "/a_y", aY);
   Firebase.setDouble(firebaseData, path + "/a_z", aZ);
