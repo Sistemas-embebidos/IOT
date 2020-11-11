@@ -30,7 +30,7 @@ const char * myWriteAPIKey = SECRET_WRITE_APIKEY;
 #define APP 1
 #define FIREBASE 0
 #define THINGSPEAK 0
-#define MQTT_ 0
+#define MQTT_ 1
 
 FirebaseData firebaseData;
 
@@ -127,16 +127,32 @@ void connect() {
 
 void MQTT_send(void) {
 
+  float acc = sqrt(aX*aX+aY*aY+aZ*aZ);
+  float mgn = sqrt(mX*mX+mY*mY+mZ*mZ);
+  float gir = sqrt(gX*gX+gY*gY+gZ*gZ);
+  String ID = String(random(1, 4));
+  
+  client.publish("dispID", String(ID));
   client.publish("Temperatura", String(T));
-  client.publish("Magnetometro/m_x", String(mX));
-  client.publish("Magnetometro/m_y", String(mY));
-  client.publish("Magnetometro/m_z", String(mZ));
-  client.publish("Giroscopio/g_x", String(gX));
-  client.publish("Giroscopio/g_y", String(gY));
-  client.publish("Giroscopio/g_z", String(gZ));
-  client.publish("Aceleracion/a_x", String(aX));
-  client.publish("Aceleracion/a_y", String(aY));
-  client.publish("Aceleracion/a_z", String(aZ));
+    
+  //client.publish("Magnetometro/m_x", String(mX));
+  //client.publish("Magnetometro/m_y", String(mY));
+  //client.publish("Magnetometro/m_z", String(mZ));
+  Serial.println(mX*mX+mY*mY+mZ*mZ);
+  client.publish("Magnetometro", String(mgn));
+  
+  //client.publish("Giroscopio/g_x", String(gX));
+  //client.publish("Giroscopio/g_y", String(gY));
+  //client.publish("Giroscopio/g_z", String(gZ));
+  client.publish("Giroscopio", String(gir));
+  
+  //client.publish("Aceleracion/a_x", String(aX));
+  //client.publish("Aceleracion/a_y", String(aY));
+  //client.publish("Aceleracion/a_z", String(aZ));
+  client.publish("Aceleracion", String(acc));
+
+  client.publish("Datos", "{\"id\":"+ID+",\"temperatura\":"+String(T)+",\"magnetico\":"+String(mgn)+",\"giroscopio\":"+String(gir)+",\"aceleracion\":"+String(acc)+"}");
+
 
   Serial.print("MQTT > Publicado!");
 }
@@ -196,6 +212,8 @@ void crear_dato(void) {
     mX = mySensor.magX();
     mY = mySensor.magY();
     mZ = mySensor.magZ();
+    if (mZ > 65000)
+      mZ = 0;
     mDirection = mySensor.magHorizDirection();
   }
 
